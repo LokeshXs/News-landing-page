@@ -1,3 +1,4 @@
+import React from "react";
 import classes from "./Main.module.css";
 import mainNewsPhoto from "../../assets/image-web-3-desktop.jpg";
 import HeadLinesContainer from "./HeadLinesContainer/HeadLinesContainer";
@@ -21,4 +22,4 @@ const Main = () => {
   </main>;
 };
 
-export default Main;
+export default React.memo(Main);

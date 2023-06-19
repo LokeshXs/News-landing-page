@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <Header pageWidth={pageWidth} />
-      <Main></Main>
+      <Main />
     </>
   )
 }
