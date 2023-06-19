@@ -1,0 +1,52 @@
+.headerBlock {
+  display: flex;
+  padding: 5rem 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navBar-navigation {
+  list-style: none;
+  display: flex;
+  gap: 2.8rem;
+  font-size: 1.8rem;
+  color: hsl(236, 13%, 42%);
+
+}
+
+.navBar-navigation li a {
+  text-decoration: none;
+  color: hsl(236, 13%, 42%);
+  transition: all 0.3s;
+}
+
+.navBar-navigation li a:active {
+  color: hsl(236, 13%, 42%);
+}
+
+.navBar-navigation li a:hover {
+  color: hsl(5, 85%, 63%);
+}
+
+.icon {
+  position: static;
+  right: 10%;
+
+  z-index: 10;
+  cursor: pointer;
+}
+
+/* Responsiveness */
+
+@media(max-width: 68em) {
+
+  .headerBlock {
+    padding: 3rem 0;
+  }
+
+  .navBar-navigation {
+    gap: 2.4rem;
+    font-size: 1.6rem;
+
+  }
+}

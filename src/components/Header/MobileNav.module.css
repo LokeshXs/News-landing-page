@@ -1,0 +1,41 @@
+.MobileNav {
+  width: 70vw;
+  height: 100vh;
+  background-color: hsl(36, 100%, 99%);
+  position: fixed;
+  right: 0;
+  transform: translateX(100%);
+  top: 0;
+  transition: all 0.5s;
+  z-index: 5;
+}
+
+.mobileNavBar {
+  margin-top: 80%;
+}
+
+.mobileNavBar-navigation {
+  list-style: none;
+  font-size: 2rem;
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  margin-left: 4rem;
+
+}
+
+.openNav{
+  transform: translateX(0%);
+}
+.mobileNavBar-navigation li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.mobileNavBar-navigation li a:link {    
+  color: #000;
+}
+
+.mobileNavBar-navigation li a:active {
+  color: #000;
+}
